@@ -1,0 +1,66 @@
+/**************************** 
+           global css
+***************************/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* body {
+  background-color: black;
+} */
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+/**************************** 
+        header css start
+***************************/
+
+/* .logo {
+  color: white;
+} */
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-left: 20px;
+  padding: 30px 7px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+}
+.navbar ul li:hover {
+  background-color: blueviolet;
+}
+
+..get_start {
+  padding: 10px;
+}
+
+.get_start button {
+  padding: 10px 40px;
+  border-radius: 20px;
+  border: 0px;
+  background-color: orange;
+}
+
+.get_start button:hover {
+  opacity: 0.9;
+  color: white;
+}
